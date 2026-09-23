@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280">
+  <rect width="1200" height="280" rx="16" fill="#0d1117"/>
+  <rect x="64" y="72" width="6" height="136" rx="3" fill="#f78166"/>
+  <text x="100" y="128" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="54" font-weight="700" fill="#e6edf3">Sanskar Kharya</text>
+  <text x="100" y="176" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="24" fill="#8b949e">I build small tools for problems that annoyed me,</text>
+  <text x="100" y="208" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="24" fill="#8b949e">then write about what broke.</text>
+  <text x="1136" y="240" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" fill="#6e7681">India · IST (UTC+5:30)</text>
+</svg>
