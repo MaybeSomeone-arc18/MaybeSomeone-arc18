@@ -1,34 +1,38 @@
 <img src="./banner.svg" alt="Sanskar Kharya - I build small tools for problems that annoyed me, then write about what broke." width="100%">
 
-I work mostly in TypeScript, React and Node. Most of what I make starts with something that annoyed me: a .mov file that wouldn't open, a news feed with too much noise, an AI assistant that interrupts at the worst moment.
+I build web apps, APIs and small tools, from a tech news feed to a local video converter.
 
-## Things I've shipped
+I work mostly in TypeScript, React, Node.js and Python. I also send fixes upstream and write about what I learn.
 
-| Project | What it does | Links |
-|---|---|---|
-| **[mov2mp4](https://github.com/MaybeSomeone-arc18/mov2mp4)** | Converts MOV to MP4 on your own machine with FFmpeg. No uploads, no file limits. Windows and Apple Silicon builds. | [writeup](https://dev.to/sansk_ya/what-i-learned-shipping-a-tiny-ffmpeg-desktop-app-1hng) |
-| **[IMA](https://github.com/MaybeSomeone-arc18/Ima-)** | Seven tech feeds in one place, with clustering, bookmarks and Ask IMA for cited answers. Its AI chat now has one entry point with a Groq-to-Gemini fallback. | [live](https://ima-tech.vercel.app/) |
-| **[Cognitive Companion](https://github.com/MaybeSomeone-arc18/cognitive-companion-openenv)** | An OpenEnv environment for training agents on *when* to step in, not just what to say. | [demo](https://huggingface.co/spaces/MaybeSomeone19/cognitive-companion-openenv) |
-| **[TaskFlow AI](https://github.com/MaybeSomeone-arc18/taskflow-ai)** | Project planning and progress tracking for small teams. React, Express, MongoDB, Gemini. | [live](https://taskflow-ai-nine.vercel.app) |
+## Projects
 
-I keep a [daily dev log](https://github.com/MaybeSomeone-arc18/daily-dev-activity) of what I build and learn.
+| Project | What it does |
+| --- | --- |
+| **[IMA](https://github.com/MaybeSomeone-arc18/Ima-)** | Pulls the latest tech news into one feed, so you can keep up without the FOMO. |
+| **[Voino](https://github.com/MaybeSomeone-arc18/voino)** | Turns meetings into editable, interactive notes and a visual board. Prototype. |
+| **[Saartheye](https://github.com/MaybeSomeone-arc18/saartheye-ai)** | A prototype I built with the vision of helping blind people use their phones to navigate. Not a validated navigation aid. |
+| **[FacCheck.ai](https://github.com/MaybeSomeone-arc18/fac-Check.ai)** | A predictive-maintenance dashboard prototype for machine health and alerts. Uses CSV replay and simulated metrics, not real factory results. |
+| **[TaskFlow AI](https://github.com/MaybeSomeone-arc18/taskflow-ai)** | Helps people arrange tasks and projects, collaborate with others and use AI for planning. |
+| **[mov2mp4](https://github.com/MaybeSomeone-arc18/mov2mp4)** | Helps editors convert MOV videos to MP4 for free, on their own machine. |
 
+## Work that landed upstream
 
-## Building with my team
+- **[pgAdmin](https://github.com/pgadmin-org/pgadmin4/pull/10451)** - fixed pgpass handling in the Change Server Password dialog, with regression tests. Squashed into master by the maintainer.
+- **Notify-Chain** - [database reconnection with bounded backoff](https://github.com/Core-Foundry/Notify-Chain/pull/858) and a [request-ID build fix](https://github.com/Core-Foundry/Notify-Chain/pull/846). Both merged.
 
-**KabadiwalaConnect** - our Smart India Hackathon project, still in progress. I contributed to its FastAPI backend and offline sync engine.
+## Tools I use
 
-## Open source
+TypeScript / JavaScript / React / Next.js / Node.js / Express  
+Python / FastAPI / PostgreSQL / MongoDB / Redis / Docker / Java
 
-I've started contributing upstream:
+## Tripwire: library and technical report
 
-- [pgadmin-org/pgadmin4#10451](https://github.com/pgadmin-org/pgadmin4/pull/10451) - submitted fix for pgpass handling in the Change Server Password dialog, with tests (under review)
-- [ZecHub/zechub#2217](https://github.com/ZecHub/zechub/pull/2217) - a new wiki page on avoiding common Zcash scams
+[Tripwire](https://github.com/MaybeSomeone-arc18/tripwire-guardrails) checks text going into and out of LLM apps for prompt injection, secrets and personal data, with plain rules and an optional Gemma judge.
 
-## Stack
+**[Tripwire catches the override, not the intent](https://zenodo.org/records/23117097)** - a rules-only failure analysis of indirect prompt-injection screening. Technical report on Zenodo, not peer reviewed. It measures text screening, not whether an agent was protected from an attack.
 
-<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,express,py,fastapi,mongodb,postgres,supabase,tailwind,vercel,java" alt="TypeScript, JavaScript, React, Next.js, Node.js, Express, Python, FastAPI, MongoDB, Postgres, Supabase, Tailwind, Vercel, Java">
+## Notes from building
 
-## Writing
+I write about the parts that took longer than expected, what broke and what I'd change: **[dev.to/sansk_ya](https://dev.to/sansk_ya)**.
 
-Short posts on things I built and what I'd do differently: [dev.to/sansk_ya](https://dev.to/sansk_ya)
+One place to start: [what I learned shipping a tiny FFmpeg desktop app](https://dev.to/sansk_ya/what-i-learned-shipping-a-tiny-ffmpeg-desktop-app-1hng).
