@@ -15,10 +15,12 @@ I work mostly in TypeScript, React, Node.js and Python. I also send fixes upstre
 | **[TaskFlow AI](https://github.com/MaybeSomeone-arc18/taskflow-ai)** | Helps people arrange tasks and projects, collaborate with others and use AI for planning. |
 | **[mov2mp4](https://github.com/MaybeSomeone-arc18/mov2mp4)** | Helps editors convert MOV videos to MP4 for free, on their own machine. |
 
-## Work that landed upstream
+## Open source
 
-- **[pgAdmin](https://github.com/pgadmin-org/pgadmin4/pull/10451)** - fixed pgpass handling in the Change Server Password dialog, with regression tests. Squashed into master by the maintainer.
-- **Notify-Chain** - [database reconnection with bounded backoff](https://github.com/Core-Foundry/Notify-Chain/pull/858), a [request-ID build fix](https://github.com/Core-Foundry/Notify-Chain/pull/846), a [bounded worker pool for scheduled notification delivery](https://github.com/Core-Foundry/Notify-Chain/pull/856) and [API contract tests with CI coverage](https://github.com/Core-Foundry/Notify-Chain/pull/862). All four merged.
+6 merged PRs and 6 open ones in other people's projects. Open does not mean accepted. The full list with links and current status is in [OPEN-SOURCE.md](./OPEN-SOURCE.md).
+
+- **[pgAdmin](https://github.com/pgadmin-org/pgadmin4/pull/10451)** - fixed pgpass handling in the Change Server Password dialog, with regression tests. Squashed into master by the maintainer. A [fix for multi-byte characters in the Dashboard logs](https://github.com/pgadmin-org/pgadmin4/pull/10526) is open and has had a maintainer review.
+- **Notify-Chain** - four merged PRs, including [database reconnection with bounded backoff](https://github.com/Core-Foundry/Notify-Chain/pull/858) and [API contract tests with CI coverage](https://github.com/Core-Foundry/Notify-Chain/pull/862).
 - **[ZecHub wiki](https://github.com/ZecHub/zechub-wiki/pull/990)** - made the keyboard work in the 404 page search, with tests. Merged.
 
 ## Tools I use
