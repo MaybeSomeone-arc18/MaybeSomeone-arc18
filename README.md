@@ -18,7 +18,8 @@ I work mostly in TypeScript, React, Node.js and Python. I also send fixes upstre
 ## Work that landed upstream
 
 - **[pgAdmin](https://github.com/pgadmin-org/pgadmin4/pull/10451)** - fixed pgpass handling in the Change Server Password dialog, with regression tests. Squashed into master by the maintainer.
-- **Notify-Chain** - [database reconnection with bounded backoff](https://github.com/Core-Foundry/Notify-Chain/pull/858) and a [request-ID build fix](https://github.com/Core-Foundry/Notify-Chain/pull/846). Both merged.
+- **Notify-Chain** - [database reconnection with bounded backoff](https://github.com/Core-Foundry/Notify-Chain/pull/858), a [request-ID build fix](https://github.com/Core-Foundry/Notify-Chain/pull/846), a [bounded worker pool for scheduled notification delivery](https://github.com/Core-Foundry/Notify-Chain/pull/856) and [API contract tests with CI coverage](https://github.com/Core-Foundry/Notify-Chain/pull/862). All four merged.
+- **[ZecHub wiki](https://github.com/ZecHub/zechub-wiki/pull/990)** - made the keyboard work in the 404 page search, with tests. Merged.
 
 ## Tools I use
 
