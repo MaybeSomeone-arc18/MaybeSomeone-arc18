@@ -25,8 +25,7 @@ I work mostly in TypeScript, React, Node.js and Python. I also send fixes upstre
 
 ## Tools I use
 
-TypeScript / JavaScript / React / Next.js / Node.js / Express  
-Python / FastAPI / PostgreSQL / MongoDB / Redis / Docker / Java
+<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,express,py,fastapi,postgres,mongodb,redis,docker,java" alt="TypeScript, JavaScript, React, Next.js, Node.js, Express, Python, FastAPI, PostgreSQL, MongoDB, Redis, Docker, Java">
 
 ## Tripwire: library and technical report
 
