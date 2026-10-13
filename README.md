@@ -1,4 +1,4 @@
-<img src="./banner.svg" alt="Sanskar Kharya - I build small tools for problems that annoyed me, then write about what broke." width="100%">
+<img src="./banner-animated.svg" alt="hi there, I'm Sanskar;" width="100%">
 
 I build web apps, APIs and small tools, from a tech news feed to a local video converter.
 
