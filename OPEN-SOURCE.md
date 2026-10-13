@@ -2,9 +2,9 @@
 
 Contributions to other people's projects, grouped by status. Status comes from GitHub and is updated when a PR changes state. An open PR is not an accepted one. Course and team projects are not listed.
 
-Last updated: 2026-10-12
+Last updated: 2026-10-13
 
-**7 merged, 5 open, 2 waiting on assignment.**
+**8 merged, 4 open, 2 waiting on assignment.**
 
 ## Merged
 
@@ -12,6 +12,7 @@ Last updated: 2026-10-12
 | --- | --- | --- |
 | pgAdmin | [#10451](https://github.com/pgadmin-org/pgadmin4/pull/10451) | Honours the pgpass file in the Change Server Password dialog, with regression tests. Squashed into master by the maintainer. |
 | pgAdmin | [#10502](https://github.com/pgadmin-org/pgadmin4/pull/10502) | Database properties panel shows the real default privileges instead of empty values. Squashed and merged by the maintainer as 641173d0f. |
+| pgAdmin | [#10526](https://github.com/pgadmin-org/pgadmin4/pull/10526) | Dashboard log reads no longer fail when a multi-byte character is split across a chunk boundary. Squashed and merged by the maintainer as e02150e. |
 | Notify-Chain | [#846](https://github.com/Core-Foundry/Notify-Chain/pull/846) | Repairs a mangled docstring that broke the build on main. |
 | Notify-Chain | [#856](https://github.com/Core-Foundry/Notify-Chain/pull/856) | Bounded worker pool for scheduled notification delivery. |
 | Notify-Chain | [#858](https://github.com/Core-Foundry/Notify-Chain/pull/858) | Automatic database reconnection with bounded backoff. |
@@ -22,7 +23,6 @@ Last updated: 2026-10-12
 
 | Project | PR | What it does | State |
 | --- | --- | --- | --- |
-| pgAdmin | [#10526](https://github.com/pgadmin-org/pgadmin4/pull/10526) | Dashboard log reads no longer fail when a multi-byte character is split across a chunk boundary. Known limit: EUC and GBK encodings can still garble one character at a boundary. | Maintainer reviewed, changes pushed, waiting on his merge decision. |
 | DIPY | [#4222](https://github.com/dipy/dipy/pull/4222) | API summaries include functions and classes listed in `__all__`. AI assistance was used for the implementation and tests, as the PR says. | No review yet. |
 | zulip-terminal | [#1657](https://github.com/zulip/zulip-terminal/pull/1657) | Esc on message search returns focus to the column it started from. | No review yet. |
 | Notify-Chain | [#861](https://github.com/Core-Foundry/Notify-Chain/pull/861) | Events API validates query params and returns clear 400 errors. | No review yet. |
