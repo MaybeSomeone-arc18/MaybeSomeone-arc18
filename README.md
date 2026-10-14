@@ -17,9 +17,9 @@ I work mostly in TypeScript, React, Node.js and Python. I also send fixes upstre
 
 ## Open source
 
-8 merged PRs and 5 open ones in other people's projects. Open does not mean accepted. The full list with links and current status is in [OPEN-SOURCE.md](./OPEN-SOURCE.md).
+9 merged PRs and 4 open ones in other people's projects. Open does not mean accepted. The full list with links and current status is in [OPEN-SOURCE.md](./OPEN-SOURCE.md).
 
-- **[pgAdmin](https://github.com/pgadmin-org/pgadmin4/pull/10451)** - fixed pgpass handling in the Change Server Password dialog, with regression tests, and [made the Database properties panel show real default privileges](https://github.com/pgadmin-org/pgadmin4/pull/10502). All three were squashed into master by the maintainer, the third a [fix for multi-byte characters split across Dashboard log reads](https://github.com/pgadmin-org/pgadmin4/pull/10526).
+- **[pgAdmin](https://github.com/pgadmin-org/pgadmin4/pull/10451)** - fixed pgpass handling in the Change Server Password dialog, with regression tests, and [made the Database properties panel show real default privileges](https://github.com/pgadmin-org/pgadmin4/pull/10502). Also fixed [multi-byte characters split across Dashboard log reads](https://github.com/pgadmin-org/pgadmin4/pull/10526) and [moved the return-set switch beside the return type](https://github.com/pgadmin-org/pgadmin4/pull/10565). All four were squashed into master by the maintainer.
 - **Notify-Chain** - four merged PRs, including [database reconnection with bounded backoff](https://github.com/Core-Foundry/Notify-Chain/pull/858) and [API contract tests with CI coverage](https://github.com/Core-Foundry/Notify-Chain/pull/862).
 - **[ZecHub wiki](https://github.com/ZecHub/zechub-wiki/pull/990)** - made the keyboard work in the 404 page search, with tests. Merged.
 
