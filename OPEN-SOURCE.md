@@ -2,9 +2,9 @@
 
 Contributions to other people's projects, grouped by status. Status comes from GitHub and is updated when a PR changes state. An open PR is not an accepted one. Course and team projects are not listed.
 
-Last updated: 2026-10-14
+Last updated: 2026-10-15
 
-**9 merged, 4 open, 2 waiting on assignment.**
+**9 merged, 5 open, 2 waiting on assignment.**
 
 ## Merged
 
@@ -24,6 +24,7 @@ Last updated: 2026-10-14
 
 | Project | PR | What it does | State |
 | --- | --- | --- | --- |
+| pgAdmin | [#10596](https://github.com/pgadmin-org/pgadmin4/pull/10596) | Preserves explicit 24-hour mode in date-time picker popups, with regression tests. | Awaiting review. |
 | DIPY | [#4222](https://github.com/dipy/dipy/pull/4222) | API summaries include functions and classes listed in `__all__`. AI assistance was used for the implementation and tests, as the PR says. | No review yet. |
 | zulip-terminal | [#1657](https://github.com/zulip/zulip-terminal/pull/1657) | Esc on message search returns focus to the column it started from. | No review yet. |
 | Notify-Chain | [#861](https://github.com/Core-Foundry/Notify-Chain/pull/861) | Events API validates query params and returns clear 400 errors. | No review yet. |
