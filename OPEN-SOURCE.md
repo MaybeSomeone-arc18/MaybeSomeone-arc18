@@ -4,7 +4,7 @@ Contributions to other people's projects, grouped by status. Status comes from G
 
 Last updated: 2026-10-17
 
-**10 merged, 4 open, 2 waiting on assignment.**
+**10 merged, 5 open, 2 waiting on assignment.**
 
 ## Merged
 
@@ -29,6 +29,7 @@ Last updated: 2026-10-17
 | Notify-Chain | [#861](https://github.com/Core-Foundry/Notify-Chain/pull/861) | Events API validates query params and returns clear 400 errors. | No review yet. |
 | fastapi-react | [#13](https://github.com/testdrivenio/fastapi-react/pull/13) | `add_todo` returned a Python set instead of a string. | No review yet. |
 | pgAdmin | [#10635](https://github.com/pgadmin-org/pgadmin4/pull/10635) | Index Create Script preserves opclass options (e.g. gist_trgm_ops(siglen=32)) and every storage parameter, with regression tests. | No review yet. |
+| pgAdmin | [#10636](https://github.com/pgadmin-org/pgadmin4/pull/10636) | Makes the OpenAI LLM provider work with OpenAI-compatible servers and reasoning models. | No review yet. |
 
 ## Waiting on assignment
 
