@@ -2,9 +2,9 @@
 
 Contributions to other people's projects, grouped by status. Status comes from GitHub and is updated when a PR changes state. An open PR is not an accepted one. Course and team projects are not listed.
 
-Last updated: 2026-10-15
+Last updated: 2026-10-17
 
-**10 merged, 4 open, 2 waiting on assignment.**
+**10 merged, 3 open, 2 waiting on assignment.**
 
 ## Merged
 
@@ -25,7 +25,6 @@ Last updated: 2026-10-15
 
 | Project | PR | What it does | State |
 | --- | --- | --- | --- |
-| DIPY | [#4222](https://github.com/dipy/dipy/pull/4222) | API summaries include functions and classes listed in `__all__`. AI assistance was used for the implementation and tests, as the PR says. | No review yet. |
 | zulip-terminal | [#1657](https://github.com/zulip/zulip-terminal/pull/1657) | Esc on message search returns focus to the column it started from. | No review yet. |
 | Notify-Chain | [#861](https://github.com/Core-Foundry/Notify-Chain/pull/861) | Events API validates query params and returns clear 400 errors. | No review yet. |
 | fastapi-react | [#13](https://github.com/testdrivenio/fastapi-react/pull/13) | `add_todo` returned a Python set instead of a string. | No review yet. |
@@ -43,3 +42,4 @@ Last updated: 2026-10-15
 - ZecHub/zechub [#2217](https://github.com/ZecHub/zechub/pull/2217)
 - Pi-Defi-world/acbu-backend [#1082](https://github.com/Pi-Defi-world/acbu-backend/pull/1082)
 - checkstyle/checkstyle [#21533](https://github.com/checkstyle/checkstyle/pull/21533)
+- dipy/dipy [#4222](https://github.com/dipy/dipy/pull/4222) - closed by the maintainer because the issue was not assigned first
