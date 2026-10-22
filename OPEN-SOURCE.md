@@ -2,9 +2,9 @@
 
 Contributions to other people's projects, grouped by status. Status comes from GitHub and is updated when a PR changes state. An open PR is not an accepted one. Course and team projects are not listed.
 
-Last updated: 2026-10-21
+Last updated: 2026-10-22
 
-**10 merged, 9 open, 3 waiting on assignment.**
+**11 merged, 8 open, 3 waiting on assignment.**
 
 ## Merged
 
@@ -15,6 +15,7 @@ Last updated: 2026-10-21
 | pgAdmin | [#10526](https://github.com/pgadmin-org/pgadmin4/pull/10526) | Dashboard log reads no longer fail when a multi-byte character is split across a chunk boundary. Squashed and merged by the maintainer as e02150e. |
 | pgAdmin | [#10565](https://github.com/pgadmin-org/pgadmin4/pull/10565) | Moves the 'Returns a set?' option to the Definition tab in the Function dialog, next to the return type. Squashed and merged by the maintainer as 5515b54d5. |
 | pgAdmin | [#10596](https://github.com/pgadmin-org/pgadmin4/pull/10596) | Preserves explicit 24-hour mode in Time and DateTime picker popups, with regression tests. Squashed and merged as 5063c76a0; the maintainer removed an unused test import and excluded the clock setting from DatePicker. |
+| Django | [#22179](https://github.com/django/django/pull/22179) | Emits 'none' for a CSP source-list directive left empty by an unused nonce, instead of silently dropping it (Trac #37395). Merged into main by a maintainer as 549605d. |
 | Notify-Chain | [#846](https://github.com/Core-Foundry/Notify-Chain/pull/846) | Repairs a mangled docstring that broke the build on main. |
 | Notify-Chain | [#856](https://github.com/Core-Foundry/Notify-Chain/pull/856) | Bounded worker pool for scheduled notification delivery. |
 | Notify-Chain | [#858](https://github.com/Core-Foundry/Notify-Chain/pull/858) | Automatic database reconnection with bounded backoff. |
@@ -30,7 +31,6 @@ Last updated: 2026-10-21
 | fastapi-react | [#13](https://github.com/testdrivenio/fastapi-react/pull/13) | `add_todo` returned a Python set instead of a string. | No review yet. |
 | pgAdmin | [#10635](https://github.com/pgadmin-org/pgadmin4/pull/10635) | Index Create Script preserves opclass options (e.g. gist_trgm_ops(siglen=32)) and every storage parameter, with regression tests. | No review yet. |
 | pgAdmin | [#10636](https://github.com/pgadmin-org/pgadmin4/pull/10636) | Makes the OpenAI LLM provider work with OpenAI-compatible servers and reasoning models. | No review yet. |
-| Django | [#22179](https://github.com/django/django/pull/22179) | Emits 'none' for a CSP source-list directive left empty by an unused nonce, instead of silently dropping it (Trac #37395). | Approved in review, waiting on a maintainer to merge. |
 | Liquifact | [#1416](https://github.com/Liquifact/Liquifact-frontend/pull/1416) | Paginated funders table for on-chain invoices. | No review yet. |
 | Liquifact | [#1417](https://github.com/Liquifact/Liquifact-frontend/pull/1417) | Shows spendable balance and trustline status on the fund form. | No review yet. |
 | Liquifact | [#1423](https://github.com/Liquifact/Liquifact-frontend/pull/1423) | Validates escrow contributions against on-chain funding constraints. | No review yet. |
