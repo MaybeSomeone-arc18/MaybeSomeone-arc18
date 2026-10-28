@@ -2,9 +2,9 @@
 
 Contributions to other people's projects, grouped by status. Status comes from GitHub and is updated when a PR changes state. An open PR is not an accepted one. Course and team projects are not listed.
 
-Last updated: 2026-10-22
+Last updated: 2026-10-28
 
-**11 merged, 8 open, 3 waiting on assignment.**
+**14 merged, 5 open, 3 waiting on assignment.**
 
 ## Merged
 
@@ -21,19 +21,19 @@ Last updated: 2026-10-22
 | Notify-Chain | [#858](https://github.com/Core-Foundry/Notify-Chain/pull/858) | Automatic database reconnection with bounded backoff. |
 | Notify-Chain | [#862](https://github.com/Core-Foundry/Notify-Chain/pull/862) | API contract tests with CI coverage. |
 | ZecHub wiki | [#990](https://github.com/ZecHub/zechub-wiki/pull/990) | Keyboard selection in the 404 page search, with tests. |
+| Liquifact | [#1416](https://github.com/Liquifact/Liquifact-frontend/pull/1416) | Paginated funders table for on-chain invoices. |
+| Liquifact | [#1417](https://github.com/Liquifact/Liquifact-frontend/pull/1417) | Shows spendable balance and trustline status on the fund form. |
+| Liquifact | [#1423](https://github.com/Liquifact/Liquifact-frontend/pull/1423) | Validates escrow contributions against on-chain funding constraints. |
 
 ## Open
 
 | Project | PR | What it does | State |
 | --- | --- | --- | --- |
-| zulip-terminal | [#1657](https://github.com/zulip/zulip-terminal/pull/1657) | Esc on message search returns focus to the column it started from. | No review yet. |
-| Notify-Chain | [#861](https://github.com/Core-Foundry/Notify-Chain/pull/861) | Events API validates query params and returns clear 400 errors. | No review yet. |
-| fastapi-react | [#13](https://github.com/testdrivenio/fastapi-react/pull/13) | `add_todo` returned a Python set instead of a string. | No review yet. |
-| pgAdmin | [#10635](https://github.com/pgadmin-org/pgadmin4/pull/10635) | Index Create Script preserves opclass options (e.g. gist_trgm_ops(siglen=32)) and every storage parameter, with regression tests. | No review yet. |
-| pgAdmin | [#10636](https://github.com/pgadmin-org/pgadmin4/pull/10636) | Makes the OpenAI LLM provider work with OpenAI-compatible servers and reasoning models. | No review yet. |
-| Liquifact | [#1416](https://github.com/Liquifact/Liquifact-frontend/pull/1416) | Paginated funders table for on-chain invoices. | No review yet. |
-| Liquifact | [#1417](https://github.com/Liquifact/Liquifact-frontend/pull/1417) | Shows spendable balance and trustline status on the fund form. | No review yet. |
-| Liquifact | [#1423](https://github.com/Liquifact/Liquifact-frontend/pull/1423) | Validates escrow contributions against on-chain funding constraints. | No review yet. |
+| zulip-terminal | [#1657](https://github.com/zulip/zulip-terminal/pull/1657) | Esc on message search returns focus to the column it started from. | Reviewer tested the updated fix and said it looks good; maintainer merge pending. |
+| Notify-Chain | [#861](https://github.com/Core-Foundry/Notify-Chain/pull/861) | Events API validates query params and returns clear 400 errors. | Open; maintainer review or merge pending. |
+| fastapi-react | [#13](https://github.com/testdrivenio/fastapi-react/pull/13) | `add_todo` returned a Python set instead of a string. | Open; maintainer review or merge pending. |
+| pgAdmin | [#10635](https://github.com/pgadmin-org/pgadmin4/pull/10635) | Index Create Script preserves opclass options (e.g. gist_trgm_ops(siglen=32)) and every storage parameter, with regression tests. | Open; maintainer review or merge pending. |
+| pgAdmin | [#10636](https://github.com/pgadmin-org/pgadmin4/pull/10636) | Makes the OpenAI LLM provider work with OpenAI-compatible servers and reasoning models. | Open; maintainer review or merge pending. |
 
 ## Waiting on assignment
 
