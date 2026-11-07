@@ -4,7 +4,7 @@ Contributions to other people's projects, grouped by status. Status comes from G
 
 Last updated: 2026-11-07
 
-**16 merged, 3 open, 3 waiting on assignment.**
+**16 merged, 4 open, 3 waiting on assignment.**
 
 ## Merged
 
@@ -34,6 +34,7 @@ Last updated: 2026-11-07
 | zulip-terminal | [#1657](https://github.com/zulip/zulip-terminal/pull/1657) | Esc on message search returns focus to the column it started from. | Reviewer tested the updated fix and said it looks good; maintainer merge pending. |
 | Notify-Chain | [#861](https://github.com/Core-Foundry/Notify-Chain/pull/861) | Events API validates query params and returns clear 400 errors. | Open; maintainer review or merge pending. |
 | fastapi-react | [#13](https://github.com/testdrivenio/fastapi-react/pull/13) | `add_todo` returned a Python set instead of a string. | Open; maintainer review or merge pending. |
+| Joplin | [#17055](https://github.com/laurent22/joplin/pull/17055) | Shows a "No results" indicator in the Markdown editor search when a query has no matches, with regression tests. | Open; maintainer review pending. |
 
 ## Waiting on assignment
 
