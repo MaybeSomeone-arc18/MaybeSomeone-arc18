@@ -2,9 +2,9 @@
 
 Contributions to other people's projects, grouped by status. Status comes from GitHub and is updated when a PR changes state. An open PR is not an accepted one. Course and team projects are not listed.
 
-Last updated: 2026-11-07
+Last updated: 2026-11-14
 
-**16 merged, 4 open, 3 waiting on assignment.**
+**17 merged, 3 open, 3 waiting on assignment.**
 
 ## Merged
 
@@ -17,6 +17,7 @@ Last updated: 2026-11-07
 | pgAdmin | [#10596](https://github.com/pgadmin-org/pgadmin4/pull/10596) | Preserves explicit 24-hour mode in Time and DateTime picker popups, with regression tests. Squashed and merged as 5063c76a0; the maintainer removed an unused test import and excluded the clock setting from DatePicker. |
 | pgAdmin | [#10635](https://github.com/pgadmin-org/pgadmin4/pull/10635) | Index Create Script preserves opclass options (e.g. gist_trgm_ops(siglen=32)) and every storage parameter, with regression tests. Squashed and merged by the maintainer as cc27a36a4; the maintainer added safe quoting for option values and identifiers and adjusted a mocked row. |
 | pgAdmin | [#10636](https://github.com/pgadmin-org/pgadmin4/pull/10636) | Makes the OpenAI LLM provider work with OpenAI-compatible servers and reasoning models. Squashed and merged by the maintainer as 06e9322. |
+| pgAdmin | [#10761](https://github.com/pgadmin-org/pgadmin4/pull/10761) | Restored default tabs keep their default-layout position instead of docking first, with regression tests. Squashed and merged by the maintainer as 51d502e2f, who re-ran the suite himself, including a revert check. |
 | Django | [#22179](https://github.com/django/django/pull/22179) | Emits 'none' for a CSP source-list directive left empty by an unused nonce, instead of silently dropping it (Trac #37395). Merged into main by a maintainer as 549605d. |
 | Notify-Chain | [#846](https://github.com/Core-Foundry/Notify-Chain/pull/846) | Repairs a mangled docstring that broke the build on main. |
 | Notify-Chain | [#856](https://github.com/Core-Foundry/Notify-Chain/pull/856) | Bounded worker pool for scheduled notification delivery. |
@@ -34,7 +35,6 @@ Last updated: 2026-11-07
 | zulip-terminal | [#1657](https://github.com/zulip/zulip-terminal/pull/1657) | Esc on message search returns focus to the column it started from. | Reviewer tested the updated fix and said it looks good; maintainer merge pending. |
 | Notify-Chain | [#861](https://github.com/Core-Foundry/Notify-Chain/pull/861) | Events API validates query params and returns clear 400 errors. | Open; maintainer review or merge pending. |
 | fastapi-react | [#13](https://github.com/testdrivenio/fastapi-react/pull/13) | `add_todo` returned a Python set instead of a string. | Open; maintainer review or merge pending. |
-| Joplin | [#17055](https://github.com/laurent22/joplin/pull/17055) | Shows a "No results" indicator in the Markdown editor search when a query has no matches, with regression tests. | Open; maintainer review pending. |
 
 ## Waiting on assignment
 
@@ -51,3 +51,4 @@ Last updated: 2026-11-07
 - Pi-Defi-world/acbu-backend [#1082](https://github.com/Pi-Defi-world/acbu-backend/pull/1082)
 - checkstyle/checkstyle [#21533](https://github.com/checkstyle/checkstyle/pull/21533)
 - dipy/dipy [#4222](https://github.com/dipy/dipy/pull/4222) - closed by the maintainer because the issue was not assigned first
+- laurent22/joplin [#17055](https://github.com/laurent22/joplin/pull/17055) - closed by the maintainer under the repo's policy on unsolicited PRs ([#16803](https://github.com/laurent22/joplin/issues/16803))
